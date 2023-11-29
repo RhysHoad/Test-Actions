@@ -1,1 +1,32 @@
-
+{
+    "name": "slz.siem.poc",
+    "version": "1.0.0",
+    "description": "Githib workflows POC using Siem",
+    "author": "Santander",
+    "private": true,
+    "release": {
+        "branches": [
+            "main"
+        ]
+    },
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/npm",
+        "@semantic-release/github",
+        [
+            "@semantic-release/changelog",
+            {
+                "changelogFile": "CHANGELOG.md"
+            }
+        ],
+        [
+            "@semantic-release/git",
+            {
+                "assets": [
+                    "CHANGELOG.md"
+                ]
+            }
+        ]
+    ]
+}
