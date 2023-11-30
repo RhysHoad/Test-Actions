@@ -6,6 +6,12 @@
     ]
   },
   "plugins": [
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false
+      }
+    ],
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     [
@@ -21,13 +27,7 @@
           "docs/CHANGELOG.md"
         ]
       }
-    ],
-    [
-      "@semantic-release/npm",
-      {
-        "npmPublish": false
-      }
     ]
   ],
-  "version": "1.7.0"
+  "version": "1.8.0"
 }
