@@ -1,29 +1,25 @@
 {
-    "name": "poc",
-    "version": "1.0.0",
-    "description": "MyPOC",
-    "author": "Rhys",
-    "private": true,
-    "release": {
-        "branches": [
-            "main"
-        ]
-    },
-    "plugins": [
-        "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        "@semantic-release/changelog",
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false
-       }
-      ],
-      ["@semantic-release/git", {
-        "assets": ["dist/", "package.json","CHANGELOG.md"],
-        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-      }],
-      "@semantic-release/github"
-      ],
-    "repositoryUrl": "https://github.com/Test-Actions"
+  "name": "rhys.hoad",
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    "@semantic-release/git",
+    "@semantic-release/github"
+  ],
+  "version": "1.13.0",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^11.0.1",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "semantic-release": "^22.0.8"
+  }
 }
