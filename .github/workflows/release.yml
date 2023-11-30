@@ -1,9 +1,0 @@
-name: Release
-run-name: Create Automated Semantic Release
-on:
-  workflow_dispatch:
-
-jobs:
-  create-release:
-    uses: RhysHoad/terraform-test/.github/workflows/release-1.yml@v0.0.9
-    secrets: inherit
