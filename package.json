@@ -1,4 +1,5 @@
 {
+  "name": "test",
   "release": {
     "branches": [
       "main"
@@ -7,25 +8,19 @@
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
-    "@semantic-release/changelog",
     [
-      "@semantic-release/npm",
+      "@semantic-release/changelog",
       {
-        "npmPublish": false
+        "changelogFile": "docs/CHANGELOG.md"
       }
     ],
     [
       "@semantic-release/git",
       {
         "assets": [
-          "dist/",
-          "package.json",
-          "CHANGELOG.md"
-        ],
-        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+          "docs/CHANGELOG.md"
+        ]
       }
-    ],
-    "@semantic-release/github"
-  ],
-  "repositoryUrl": "https://github.com/RhysHoad/Test-Actions"
+    ]
+  ]
 }
