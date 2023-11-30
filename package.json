@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "rhys.hoad",
   "release": {
     "branches": [
       "main"
@@ -29,5 +29,5 @@
       }
     ]
   ],
-  "version": "1.8.0"
+  "version": "1.10.0"
 }
