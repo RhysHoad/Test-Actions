@@ -5,5 +5,5 @@ on:
 
 jobs:
   create-release:
-    uses: RhysHoad/terraform-test/.github/workflows/release-1.yml@v0.0.9
+    uses: RhysHoad/terraform-test/.github/workflows/release-1.yml@v0.1.0
     secrets: inherit
