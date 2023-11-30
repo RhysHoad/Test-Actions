@@ -6,7 +6,41 @@
     ]
   },
   "plugins": [
-    "@semantic-release/commit-analyzer",
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "releaseRules": [
+          {
+            "type": "build",
+            "release": "patch"
+          },
+          {
+            "type": "ci",
+            "release": "patch"
+          },
+          {
+            "type": "chore",
+            "release": "patch"
+          },
+          {
+            "type": "docs",
+            "release": "patch"
+          },
+          {
+            "type": "refactor",
+            "release": "patch"
+          },
+          {
+            "type": "style",
+            "release": "patch"
+          },
+          {
+            "type": "test",
+            "release": "patch"
+          }
+        ]
+      }
+    ],
     "@semantic-release/release-notes-generator",
     [
       "@semantic-release/changelog",
@@ -14,22 +48,20 @@
         "changelogFile": "docs/CHANGELOG.md"
       }
     ],
+    "@semantic-release/npm",
     [
       "@semantic-release/git",
       {
         "assets": [
-          "docs/CHANGELOG.md"
-        ]
-      }
-    ],
-    [
-      "@semantic-release/npm",
-      {
-        "npmPublish": false
+          "package.json",
+          "package-lock.json",
+          "CHANGELOG.md"
+        ],
+        "message": "release(version): Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ]
   ],
-  "version": "1.11.0",
+  "version": "1.12.0",
   "dependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^11.1.0",
