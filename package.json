@@ -1,14 +1,9 @@
 {
-    "name": "slz.siem.poc",
+    "name": "poc",
     "version": "1.0.0",
-    "description": "Githib workflows POC using Siem",
-    "author": "Santander",
+    "description": "MyPOC",
+    "author": "Rhys",
     "private": true,
-    "dependencies": {
-        "@semantic-release/changelog": "^6.0.2",
-        "@semantic-release/git": "^10.0.1",
-        "semantic-release": "^20.1.0"
-    },
     "release": {
         "branches": [
             "main"
