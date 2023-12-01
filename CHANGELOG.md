@@ -1,5 +1,21 @@
 # Semantic Versioning Changelog
 
+## [1.3.11](https://github.com/RhysHoad/Test-Actions/compare/v1.3.10...v1.3.11) (2023-12-01)
+
+
+### Bug Fixes
+
+* Update package-lock.json ([d889b58](https://github.com/RhysHoad/Test-Actions/commit/d889b58279c51106e0c4a5ad65c690ce6cbe9c8c))
+* Update package-lock.json ([1ead4e1](https://github.com/RhysHoad/Test-Actions/commit/1ead4e197cced73098248b7692bf6b18279f5993))
+* Update package-lock.json ([6e94cfe](https://github.com/RhysHoad/Test-Actions/commit/6e94cfe4d143c864f261492a62c54efe6fc8dbb1))
+* Update package.json ([08f478e](https://github.com/RhysHoad/Test-Actions/commit/08f478e6fe26c396fc658f69695876ca5bc25742))
+* Update package.json ([a915ce9](https://github.com/RhysHoad/Test-Actions/commit/a915ce92208d97cf429b8db0a73e9400dfe3adab))
+* Update package.json ([bdc26e7](https://github.com/RhysHoad/Test-Actions/commit/bdc26e7eab5a95767920f148a267b794edc00a6b))
+* Update package.json ([7d0f104](https://github.com/RhysHoad/Test-Actions/commit/7d0f1040a05be46a63a1b209405e173a43fa89e0))
+* Update package.json ([c20b61d](https://github.com/RhysHoad/Test-Actions/commit/c20b61d21077f63114131e812ff41ba5bfa93d2b))
+* Update release.yml ([b4dffba](https://github.com/RhysHoad/Test-Actions/commit/b4dffba8d69f1a975db2ea12d3ab67b340eefdca))
+* Update release.yml ([44b0621](https://github.com/RhysHoad/Test-Actions/commit/44b062140cc36e355659fd2882f728dd42f51641))
+
 ## [1.3.10](https://github.com/RhysHoad/Test-Actions/compare/v1.3.9...v1.3.10) (2023-12-01)
 
 
