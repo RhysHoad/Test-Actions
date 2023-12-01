@@ -1,4 +1,11 @@
 {
+  "devDependencies": {
+    "semantic-release": "^15.13.3",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/release-notes-generator": "^7.1.4",
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/git": "^7.0.8"
+  },
   "release": {
     "branches": "master",
     "repositoryUrl": "https://github.com/RhysHoad/Test-Actions",
