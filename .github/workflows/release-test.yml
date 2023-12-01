@@ -20,4 +20,4 @@ jobs:
     - name: setup semantic-release
       run: npm install -g semantic-release @semantic-release/git @semantic-release/changelog -D
     - name: release
-      run: npx semantic-release --plugins @semantic-release/changelog
+      run: npx semantic-release
