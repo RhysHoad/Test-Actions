@@ -1,5 +1,13 @@
 # Semantic Versioning Changelog
 
+## [1.3.8](https://github.com/RhysHoad/Test-Actions/compare/v1.3.7...v1.3.8) (2023-12-01)
+
+
+### Bug Fixes
+
+* Update release-test.yml ([dbe8a8c](https://github.com/RhysHoad/Test-Actions/commit/dbe8a8ce7fe3889fe8ec4e355c67fb95609b9d98))
+* Update release.yml ([235dba6](https://github.com/RhysHoad/Test-Actions/commit/235dba6c9d84e6a9cce0609a528e100d91e783d2))
+
 ## [1.3.7](https://github.com/RhysHoad/Test-Actions/compare/v1.3.6...v1.3.7) (2023-12-01)
 
 
