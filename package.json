@@ -1,43 +1,40 @@
 {
-  "devDependencies": {
-    "semantic-release": "^15.13.3",
-    "@semantic-release/commit-analyzer": "^6.1.0",
-    "@semantic-release/release-notes-generator": "^7.1.4",
-    "@semantic-release/changelog": "^3.0.2",
-    "@semantic-release/git": "^7.0.8"
-  },
-  "release": {
-    "branches": "master",
-    "repositoryUrl": "https://github.com/RhysHoad/Test-Actions",
-    "debug": "false",
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/changelog",
-        {
-          "changelogFile": "CHANGELOG.md",
-          "changelogTitle": "# Semantic Versioning Changelog"
-        }
-      ],
-      [
-        "@semantic-release/github",
-        {
-          "assets": [
-            {
-              "path": "release/**"
-            }
-          ]
-        }
-      ],
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "CHANGELOG.md"
-          ]
-        }
-      ]
-    ]
-  }
+    "release": {
+        "branches": "SLZ-6388",
+        "repositoryUrl": "https://github.com/santandergroup-uk/slz-deploy-github-poc",
+        "debug": "false",
+        "plugins": [
+            "@semantic-release/commit-analyzer",
+            "@semantic-release/release-notes-generator",
+            [
+                "@semantic-release/changelog",
+                {
+                    "changelogFile": "CHANGELOG.md",
+                    "changelogTitle": "# Semantic Versioning Changelog"
+                }
+            ],
+            [
+                "@semantic-release/github",
+                {
+                    "assets": [
+                        {
+                            "path": "release/**"
+                        }
+                    ]
+                }
+            ],
+            [
+                "@semantic-release/git",
+                {
+                    "assets": [
+                        "CHANGELOG.md"
+                    ]
+                }
+            ]
+        ]
+    },
+    "dependencies": {
+        "@semantic-release/changelog": "6.0.3",
+        "semantic-release": "^22.0.8"
+    }
 }
