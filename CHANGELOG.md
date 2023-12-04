@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.3.17](https://github.com/RhysHoad/Test-Actions/compare/v1.3.16...v1.3.17) (2023-12-04)
+
+
+### Bug Fixes
+
+* Rename package-lock.json to old_package-lock1.json ([1571753](https://github.com/RhysHoad/Test-Actions/commit/15717537e6d55f5c97ef1da077521c9199970b25))
+
 ## [1.3.16](https://github.com/RhysHoad/Test-Actions/compare/v1.3.15...v1.3.16) (2023-12-04)
 
 
