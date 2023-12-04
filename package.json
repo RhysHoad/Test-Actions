@@ -36,6 +36,7 @@
         ]
     },
     "dependencies": {
-        "semantic-release": "^22.0.8"
+        "semantic-release": "^22.0.8",
+        "@semantic-release/changelog": "^6.0.3"
     }
 }
