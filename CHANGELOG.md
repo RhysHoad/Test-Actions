@@ -1,5 +1,18 @@
 # Semantic Versioning Changelog
 
+## [1.3.14](https://github.com/RhysHoad/Test-Actions/compare/v1.3.13...v1.3.14) (2023-12-04)
+
+
+### Bug Fixes
+
+* Update package.json ([edd35b1](https://github.com/RhysHoad/Test-Actions/commit/edd35b11224c72e5eb08cb8f450bded30ddda150))
+* Update package.json ([9ca289e](https://github.com/RhysHoad/Test-Actions/commit/9ca289e4799699c2c989909ce5ab6699b3c7ff91))
+* Update package.json ([6d4f523](https://github.com/RhysHoad/Test-Actions/commit/6d4f523cc9b5d6cb6173139fdde8a04bd0bf62fa))
+* Update package.json ([dc4c14b](https://github.com/RhysHoad/Test-Actions/commit/dc4c14b7c0626071b753a50421d4942738e5fd90))
+* Update package.json ([d468f51](https://github.com/RhysHoad/Test-Actions/commit/d468f510874d3de78d6e6da9dffce242e2d4aa85))
+* Update package.json ([742c7fa](https://github.com/RhysHoad/Test-Actions/commit/742c7fa06d0cc3acfb2914d9bcd76472e31ff151))
+* Update package.json ([af12470](https://github.com/RhysHoad/Test-Actions/commit/af12470e0fc97cb58da2517c3f0479ed2bc74b78))
+
 ## [1.3.13](https://github.com/RhysHoad/Test-Actions/compare/v1.3.12...v1.3.13) (2023-12-04)
 
 
