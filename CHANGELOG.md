@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.4.0](https://github.com/RhysHoad/Test-Actions/compare/v1.3.17...v1.4.0) (2023-12-04)
+
+
+### Features
+
+* Update README.md ([12cdb56](https://github.com/RhysHoad/Test-Actions/commit/12cdb562a45890a8b17753a3fd6bd36703052ca3))
+
 ## [1.3.17](https://github.com/RhysHoad/Test-Actions/compare/v1.3.16...v1.3.17) (2023-12-04)
 
 
