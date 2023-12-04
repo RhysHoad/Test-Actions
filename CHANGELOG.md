@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.3.16](https://github.com/RhysHoad/Test-Actions/compare/v1.3.15...v1.3.16) (2023-12-04)
+
+
+### Bug Fixes
+
+* Update package.json ([60e97eb](https://github.com/RhysHoad/Test-Actions/commit/60e97eb4b70d80b6ca44e1af27ad865045e91a6c))
+
 ## [1.3.15](https://github.com/RhysHoad/Test-Actions/compare/v1.3.14...v1.3.15) (2023-12-04)
 
 
