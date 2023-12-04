@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [1.3.12](https://github.com/RhysHoad/Test-Actions/compare/v1.3.11...v1.3.12) (2023-12-04)
+
+
+### Bug Fixes
+
+* Update package-lock.json ([c4188b4](https://github.com/RhysHoad/Test-Actions/commit/c4188b4a1ac753c05b14e20ffcd293ec1ccafe25))
+
 ## [1.3.11](https://github.com/RhysHoad/Test-Actions/compare/v1.3.10...v1.3.11) (2023-12-01)
 
 
