@@ -1,7 +1,7 @@
 {
     "name": "slz.siem.poc",
     "version": "1.0.0",
-    "author": "Rhys",
+    "author": "RhysTest",
     "private": true,
     "release": {
         "branches": "master",
